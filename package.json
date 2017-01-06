@@ -1,0 +1,35 @@
+{
+  "name": "electron-react-hot-reload",
+  "version": "0.0.3",
+  "description": "Updates your React Components instantly while you do your magic",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "dev": "babel src --out-dir dist -w"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "hot",
+    "reload"
+  ],
+  "author": "Danny van der Jagt <dannyvanderjagt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "stage-0"
+    ]
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
